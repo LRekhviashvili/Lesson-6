@@ -1,0 +1,40 @@
+.image1{
+	height: 50%;
+}
+.image-wraper2{
+	position: absolute;
+	bottom: -5%;
+	left: 80px;
+	z-index: 50;
+	transform: translate(50px);
+	animation-timing-function: linear;
+	animation:mymove 10s infinite;
+   
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+.image-wraper{
+    position: relative;;
+}
+.image-wraper3{
+	position: absolute;
+	bottom:-2%;
+	right: 10px;
+animation-timing-function: linear;
+	animation-name: mymove1;
+    animation-duration: 10s;
+	}
+@keyframes mymove1{
+	from {transform: rotate(0deg);}
+  to {transform: rotate(2deg)}
+}
+.image-wraper4{
+	position: absolute;
+	top:80px;
+	transform: translate(50px);
+	animation-timing-function: linear;
+	animation:mymove 10s infinite;
+}
